@@ -1,13 +1,13 @@
 [
   {
     "identifier": 1,
-    "name": "GithubTest",
+    "name": "Sync",
     "prefixUrl": "",
     "username": "",
     "password": "",
     "useBasicAuthentication": false,
     "csrfTokenUrl": "",
-    "baseVersionSha": "16c57365775beb982e53c0f20d32bb8769134caf",
+    "baseVersionSha": "445a3a7851e8f8cb65ee5850808b20523ffca086",
     "useGithub": true,
     "githubUrl": "https://api.github.com",
     "githubRepository": "testrepo2",
@@ -16,7 +16,7 @@
     "requests": [
       {
         "identifier": 1,
-        "name": "Google",
+        "name": "Google Test",
         "description": "",
         "httpMethod": "GET",
         "useProjectPrefixUrl": false,
