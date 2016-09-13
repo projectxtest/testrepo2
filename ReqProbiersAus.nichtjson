@@ -1,13 +1,13 @@
 [
   {
     "identifier": 1,
-    "name": "GithubTest",
+    "name": "Sync",
     "prefixUrl": "",
     "username": "",
     "password": "",
     "useBasicAuthentication": false,
     "csrfTokenUrl": "",
-    "baseVersionSha": "707bf8fe70493feff33e74adc40b9d180a383221",
+    "baseVersionSha": "0022dcd5d54b3d5c5ed93a54ee0893ead5ef7fc5",
     "useGithub": true,
     "githubUrl": "https://api.github.com",
     "githubRepository": "testrepo2",
@@ -16,6 +16,29 @@
     "requests": [
       {
         "identifier": 1,
+        "name": "New request",
+        "description": "",
+        "httpMethod": "GET",
+        "useProjectPrefixUrl": false,
+        "fetchCSRFToken": false,
+        "url": "http://localhost:3000",
+        "tags": "",
+        "requestBody": "",
+        "scriptCode": "",
+        "testScriptCode": "",
+        "responseBodyFormat": "text",
+        "groupName": "",
+        "useBasicAuthentication": false,
+        "usernameBasicAuth": "",
+        "passwordBasicAuth": "",
+        "changed": false,
+        "revision": 0,
+        "uuid": "14733435611765be5bfda-2651-40ce-990f-00a322dc09f1",
+        "assertions": [],
+        "requestHeaders": []
+      },
+      {
+        "identifier": 2,
         "name": "Google 2",
         "description": "",
         "httpMethod": "GET",
@@ -38,13 +61,13 @@
         "requestHeaders": []
       },
       {
-        "identifier": 2,
-        "name": "New request",
+        "identifier": 3,
+        "name": "Google Test (NEW)",
         "description": "",
         "httpMethod": "GET",
         "useProjectPrefixUrl": false,
         "fetchCSRFToken": false,
-        "url": "http://localhost:3000",
+        "url": "http://www.google.de",
         "tags": "",
         "requestBody": "",
         "scriptCode": "",
@@ -56,7 +79,7 @@
         "passwordBasicAuth": "",
         "changed": false,
         "revision": 0,
-        "uuid": "14733435611765be5bfda-2651-40ce-990f-00a322dc09f1",
+        "uuid": "1473781695785cd0be391-6576-4570-a22d-116eecb5669b",
         "assertions": [],
         "requestHeaders": []
       }
