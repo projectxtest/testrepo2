@@ -16,12 +16,12 @@
     "requests": [
       {
         "identifier": 1,
-        "name": "New request",
+        "name": "Google",
         "description": "",
         "httpMethod": "GET",
         "useProjectPrefixUrl": false,
         "fetchCSRFToken": false,
-        "url": "http://localhost:3000",
+        "url": "http://www.google.de",
         "tags": "",
         "requestBody": "",
         "scriptCode": "",
