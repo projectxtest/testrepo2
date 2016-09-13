@@ -7,7 +7,7 @@
     "password": "",
     "useBasicAuthentication": false,
     "csrfTokenUrl": "",
-    "baseVersionSha": "5d22272ef28d9dc7094bec4c3f441a78e6278f85",
+    "baseVersionSha": "b538f5c026304792342481942a2dc467db4e0426",
     "useGithub": true,
     "githubUrl": "https://api.github.com",
     "githubRepository": "testrepo2",
