@@ -7,7 +7,7 @@
     "password": "",
     "useBasicAuthentication": false,
     "csrfTokenUrl": "",
-    "baseVersionSha": "",
+    "baseVersionSha": "c454f82d35a6b8494238ba065bb6901090bc0c83",
     "useGithub": true,
     "githubUrl": "https://api.github.com",
     "githubRepository": "testrepo2",
@@ -15,7 +15,7 @@
     "githubUserRepository": "projectxtest",
     "requests": [
       {
-        "identifier": 1,
+        "identifier": 0,
         "name": "New request",
         "description": "",
         "httpMethod": "GET",
@@ -38,7 +38,7 @@
         "requestHeaders": []
       },
       {
-        "identifier": 2,
+        "identifier": 1,
         "name": "New request",
         "description": "",
         "httpMethod": "GET",
