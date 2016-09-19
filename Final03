@@ -7,7 +7,7 @@
     "password": "",
     "useBasicAuthentication": false,
     "csrfTokenUrl": "",
-    "baseVersionSha": "9bb4096c2d8318d6425801be127162aa66ad3933",
+    "baseVersionSha": "ebcb96b0f5a1c2c9b03c3960e90b9c90f25fd55f",
     "useGithub": true,
     "githubUrl": "https://api.github.com",
     "githubRepository": "testrepo2",
@@ -15,7 +15,7 @@
     "githubUserRepository": "projectxtest",
     "requests": [
       {
-        "identifier": 0,
+        "identifier": 1,
         "name": "Start 1",
         "description": "",
         "httpMethod": "GET",
@@ -38,7 +38,7 @@
         "requestHeaders": []
       },
       {
-        "identifier": 1,
+        "identifier": 2,
         "name": "Start 3",
         "description": "",
         "httpMethod": "GET",
@@ -61,7 +61,7 @@
         "requestHeaders": []
       },
       {
-        "identifier": 2,
+        "identifier": 3,
         "name": "Start 4",
         "description": "",
         "httpMethod": "GET",
@@ -84,7 +84,7 @@
         "requestHeaders": []
       },
       {
-        "identifier": 3,
+        "identifier": 4,
         "name": "Start 5",
         "description": "",
         "httpMethod": "GET",
@@ -115,8 +115,8 @@
         "requestHeaders": []
       },
       {
-        "identifier": 4,
-        "name": "Start 2 change 7",
+        "identifier": 5,
+        "name": "Start 2 change 8",
         "description": "",
         "httpMethod": "GET",
         "useProjectPrefixUrl": false,
