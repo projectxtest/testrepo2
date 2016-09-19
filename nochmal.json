@@ -63,7 +63,7 @@
       {
         "identifier": 3,
         "name": "Neuer Request",
-        "description": "Beschreibung",
+        "description": "Beschreibung 2",
         "httpMethod": "GET",
         "useProjectPrefixUrl": false,
         "fetchCSRFToken": false,
