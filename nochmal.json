@@ -1,6 +1,6 @@
 [
   {
-    "identifier": 1,
+    "identifier": 3,
     "name": "Test 4",
     "prefixUrl": "",
     "username": "",
@@ -67,12 +67,12 @@
       },
       {
         "identifier": 3,
-        "name": "--5",
-        "description": "",
+        "name": "New request",
+        "description": "Thorstens Änderungen.",
         "httpMethod": "GET",
         "useProjectPrefixUrl": false,
-        "fetchCSRFToken": false,
-        "url": "http://localhost:300012---5",
+        "fetchCSRFToken": true,
+        "url": "http://localhost:8080",
         "tags": "",
         "requestBody": "",
         "scriptCode": "",
