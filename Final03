@@ -7,7 +7,7 @@
     "password": "",
     "useBasicAuthentication": false,
     "csrfTokenUrl": "",
-    "baseVersionSha": "ebcb96b0f5a1c2c9b03c3960e90b9c90f25fd55f",
+    "baseVersionSha": "40bfd5b2b10adefde4c474b47e50a73edb5fe730",
     "useGithub": true,
     "githubUrl": "https://api.github.com",
     "githubRepository": "testrepo2",
@@ -116,7 +116,7 @@
       },
       {
         "identifier": 5,
-        "name": "Start 2 change 8",
+        "name": "Start 2 change 9",
         "description": "",
         "httpMethod": "GET",
         "useProjectPrefixUrl": false,
