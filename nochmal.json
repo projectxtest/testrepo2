@@ -1,13 +1,13 @@
 [
   {
-    "identifier": 3,
+    "identifier": 1,
     "name": "Test 4",
     "prefixUrl": "",
     "username": "",
     "password": "",
     "useBasicAuthentication": false,
     "csrfTokenUrl": "",
-    "baseVersionSha": "491284978907399d2179dc7e4a42c9b56bce002c",
+    "baseVersionSha": "44c0e63b1854478395f8f491cf872e441d52e1ea",
     "useGithub": true,
     "githubUrl": "https://api.github.com",
     "githubRepository": "testrepo2",
@@ -15,7 +15,7 @@
     "githubUserRepository": "projectxtest",
     "requests": [
       {
-        "identifier": 1,
+        "identifier": 0,
         "name": "New request",
         "description": "",
         "httpMethod": "GET",
@@ -39,37 +39,6 @@
       },
       {
         "identifier": 2,
-        "name": "Neuer Request",
-        "description": "Beschreibung 2",
-        "httpMethod": "GET",
-        "useProjectPrefixUrl": false,
-        "fetchCSRFToken": false,
-        "url": "http://localhost:300012",
-        "tags": "",
-        "requestBody": "",
-        "scriptCode": "",
-        "testScriptCode": "",
-        "responseBodyFormat": "text",
-        "groupName": "",
-        "useBasicAuthentication": false,
-        "usernameBasicAuth": "",
-        "passwordBasicAuth": "",
-        "changed": false,
-        "revision": 0,
-        "uuid": "147428723640428ab22ee-795c-432b-a688-b088b23fd58a",
-        "assertions": [
-          {
-            "name": "",
-            "assertProperty": "STATUS",
-            "operation": "EQUALS",
-            "path": "",
-            "expected": "200"
-          }
-        ],
-        "requestHeaders": []
-      },
-      {
-        "identifier": 3,
         "name": "New request",
         "description": "",
         "httpMethod": "GET",
@@ -89,6 +58,42 @@
         "revision": 0,
         "uuid": "147428710213989380bed-d5ec-40a9-94a3-ef99ed660602",
         "assertions": [],
+        "requestHeaders": [
+          {
+            "fieldName": "Accept",
+            "fieldValue": "application/json"
+          }
+        ]
+      },
+      {
+        "identifier": 3,
+        "name": "New request",
+        "description": "",
+        "httpMethod": "GET",
+        "useProjectPrefixUrl": false,
+        "fetchCSRFToken": false,
+        "url": "http://localhost:300012",
+        "tags": "",
+        "requestBody": "",
+        "scriptCode": "",
+        "testScriptCode": "",
+        "responseBodyFormat": "text",
+        "groupName": "",
+        "useBasicAuthentication": false,
+        "usernameBasicAuth": "",
+        "passwordBasicAuth": "",
+        "changed": false,
+        "revision": 0,
+        "uuid": "147428799746506a3f24e-2f75-46cd-96dc-27d3e0495809",
+        "assertions": [
+          {
+            "name": "",
+            "assertProperty": "STATUS",
+            "operation": "EQUALS",
+            "path": "",
+            "expected": "200"
+          }
+        ],
         "requestHeaders": []
       }
     ],
