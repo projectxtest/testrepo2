@@ -7,7 +7,7 @@
     "password": "",
     "useBasicAuthentication": false,
     "csrfTokenUrl": "",
-    "baseVersionSha": "44c0e63b1854478395f8f491cf872e441d52e1ea",
+    "baseVersionSha": "b8a7a08a84b572c3e20cd95a35501b7d5b16b901",
     "useGithub": true,
     "githubUrl": "https://api.github.com",
     "githubRepository": "testrepo2",
@@ -67,12 +67,12 @@
       },
       {
         "identifier": 3,
-        "name": "55555est",
-        "description": "custom header",
+        "name": "--5",
+        "description": "",
         "httpMethod": "GET",
         "useProjectPrefixUrl": false,
         "fetchCSRFToken": false,
-        "url": "http://localhost:300012",
+        "url": "http://localhost:300012---5",
         "tags": "",
         "requestBody": "",
         "scriptCode": "",
@@ -94,12 +94,7 @@
             "expected": "200"
           }
         ],
-        "requestHeaders": [
-          {
-            "fieldName": "Accept-Encoding",
-            "fieldValue": "12312165"
-          }
-        ]
+        "requestHeaders": []
       }
     ],
     "sequences": [],
