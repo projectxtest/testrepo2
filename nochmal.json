@@ -15,7 +15,7 @@
     "githubUserRepository": "projectxtest",
     "requests": [
       {
-        "identifier": 0,
+        "identifier": 1,
         "name": "New request",
         "description": "",
         "httpMethod": "GET",
@@ -67,8 +67,8 @@
       },
       {
         "identifier": 3,
-        "name": "New request",
-        "description": "",
+        "name": "55555est",
+        "description": "custom header",
         "httpMethod": "GET",
         "useProjectPrefixUrl": false,
         "fetchCSRFToken": false,
@@ -94,7 +94,12 @@
             "expected": "200"
           }
         ],
-        "requestHeaders": []
+        "requestHeaders": [
+          {
+            "fieldName": "Accept-Encoding",
+            "fieldValue": "12312165"
+          }
+        ]
       }
     ],
     "sequences": [],
