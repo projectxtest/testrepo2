@@ -7,7 +7,7 @@
     "password": "",
     "useBasicAuthentication": false,
     "csrfTokenUrl": "",
-    "baseVersionSha": "32de9e607b8a83e2a7b1d053d0c845e10cc3603b",
+    "baseVersionSha": "5b393682261b67f04c9857ce918dc1bd28d3e5a6",
     "useGithub": true,
     "githubUrl": "https://api.github.com",
     "githubRepository": "testrepo2",
@@ -96,6 +96,37 @@
         "changed": false,
         "revision": 0,
         "uuid": "14743747284132f77ef24-ac50-4b86-89e9-338bb40983ff",
+        "assertions": [
+          {
+            "name": "",
+            "assertProperty": "STATUS",
+            "operation": "EQUALS",
+            "path": "",
+            "expected": "200"
+          }
+        ],
+        "requestHeaders": []
+      },
+      {
+        "identifier": 4,
+        "name": "Delete Test 2",
+        "description": "",
+        "httpMethod": "GET",
+        "useProjectPrefixUrl": false,
+        "fetchCSRFToken": false,
+        "url": "http://localhost:3000",
+        "tags": "",
+        "requestBody": "",
+        "scriptCode": "",
+        "testScriptCode": "",
+        "responseBodyFormat": "text",
+        "groupName": "",
+        "useBasicAuthentication": false,
+        "usernameBasicAuth": "",
+        "passwordBasicAuth": "",
+        "changed": false,
+        "revision": 0,
+        "uuid": "1474374889461fdab53a3-c1c5-40d7-9292-c1dc7814ccee",
         "assertions": [
           {
             "name": "",
