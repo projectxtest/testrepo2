@@ -7,7 +7,7 @@
     "password": "",
     "useBasicAuthentication": false,
     "csrfTokenUrl": "",
-    "baseVersionSha": "",
+    "baseVersionSha": "ff4e2c3cdf359f6a4f217945bf080b8782b16b66",
     "useGithub": true,
     "githubUrl": "https://api.github.com",
     "githubRepository": "testrepo2",
@@ -63,7 +63,7 @@
       {
         "identifier": 3,
         "name": "Neue Abfrage",
-        "description": "Test Beschreibung",
+        "description": "Test Beschreibung 2",
         "httpMethod": "GET",
         "useProjectPrefixUrl": false,
         "fetchCSRFToken": false,
