@@ -59,6 +59,37 @@
         "uuid": "1474374292332c4abea81-03b7-4beb-8efe-3865bc72ab7e",
         "assertions": [],
         "requestHeaders": []
+      },
+      {
+        "identifier": 3,
+        "name": "Neue Abfrage",
+        "description": "Test Beschreibung",
+        "httpMethod": "GET",
+        "useProjectPrefixUrl": false,
+        "fetchCSRFToken": false,
+        "url": "http://localhost:3000",
+        "tags": "",
+        "requestBody": "",
+        "scriptCode": "",
+        "testScriptCode": "",
+        "responseBodyFormat": "text",
+        "groupName": "",
+        "useBasicAuthentication": false,
+        "usernameBasicAuth": "",
+        "passwordBasicAuth": "",
+        "changed": false,
+        "revision": 0,
+        "uuid": "14743744289561f071b14-6f41-4ceb-b382-f3a18adf0aed",
+        "assertions": [
+          {
+            "name": "",
+            "assertProperty": "STATUS",
+            "operation": "EQUALS",
+            "path": "",
+            "expected": "200"
+          }
+        ],
+        "requestHeaders": []
       }
     ],
     "sequences": [],
