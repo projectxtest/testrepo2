@@ -1,6 +1,6 @@
 [
   {
-    "identifier": 1,
+    "identifier": 3,
     "name": "New Project Test",
     "prefixUrl": "",
     "username": "",
@@ -78,6 +78,37 @@
       },
       {
         "identifier": 3,
+        "name": "New request",
+        "description": "",
+        "httpMethod": "GET",
+        "useProjectPrefixUrl": false,
+        "fetchCSRFToken": false,
+        "url": "http://localhost:3000",
+        "tags": "",
+        "requestBody": "",
+        "scriptCode": "",
+        "testScriptCode": "",
+        "responseBodyFormat": "text",
+        "groupName": "",
+        "useBasicAuthentication": false,
+        "usernameBasicAuth": "",
+        "passwordBasicAuth": "",
+        "changed": false,
+        "revision": 0,
+        "uuid": "1474374702775839ffa16-e10a-4151-8e03-9c7c429dfcce",
+        "assertions": [
+          {
+            "name": "",
+            "assertProperty": "STATUS",
+            "operation": "EQUALS",
+            "path": "",
+            "expected": "200"
+          }
+        ],
+        "requestHeaders": []
+      },
+      {
+        "identifier": 4,
         "name": "Delete Test",
         "description": "",
         "httpMethod": "GET",
