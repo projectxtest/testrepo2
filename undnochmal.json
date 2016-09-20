@@ -1,13 +1,13 @@
 [
   {
-    "identifier": 3,
+    "identifier": 1,
     "name": "New Project Test",
     "prefixUrl": "",
     "username": "",
     "password": "",
     "useBasicAuthentication": false,
     "csrfTokenUrl": "",
-    "baseVersionSha": "5b393682261b67f04c9857ce918dc1bd28d3e5a6",
+    "baseVersionSha": "6e8b4b2509a8433967357b13dff691778759abad",
     "useGithub": true,
     "githubUrl": "https://api.github.com",
     "githubRepository": "testrepo2",
@@ -16,37 +16,6 @@
     "requests": [
       {
         "identifier": 1,
-        "name": "Neue Abfrage",
-        "description": "Test Beschreibung 2",
-        "httpMethod": "GET",
-        "useProjectPrefixUrl": false,
-        "fetchCSRFToken": false,
-        "url": "http://localhost:3000",
-        "tags": "",
-        "requestBody": "",
-        "scriptCode": "",
-        "testScriptCode": "",
-        "responseBodyFormat": "text",
-        "groupName": "",
-        "useBasicAuthentication": false,
-        "usernameBasicAuth": "",
-        "passwordBasicAuth": "",
-        "changed": false,
-        "revision": 0,
-        "uuid": "14743744289561f071b14-6f41-4ceb-b382-f3a18adf0aed",
-        "assertions": [
-          {
-            "name": "",
-            "assertProperty": "STATUS",
-            "operation": "EQUALS",
-            "path": "",
-            "expected": "200"
-          }
-        ],
-        "requestHeaders": []
-      },
-      {
-        "identifier": 2,
         "name": "New request",
         "description": "",
         "httpMethod": "GET",
@@ -77,38 +46,7 @@
         "requestHeaders": []
       },
       {
-        "identifier": 3,
-        "name": "Delete Test",
-        "description": "",
-        "httpMethod": "GET",
-        "useProjectPrefixUrl": false,
-        "fetchCSRFToken": false,
-        "url": "http://localhost:3000",
-        "tags": "",
-        "requestBody": "",
-        "scriptCode": "",
-        "testScriptCode": "",
-        "responseBodyFormat": "text",
-        "groupName": "",
-        "useBasicAuthentication": false,
-        "usernameBasicAuth": "",
-        "passwordBasicAuth": "",
-        "changed": false,
-        "revision": 0,
-        "uuid": "14743747284132f77ef24-ac50-4b86-89e9-338bb40983ff",
-        "assertions": [
-          {
-            "name": "",
-            "assertProperty": "STATUS",
-            "operation": "EQUALS",
-            "path": "",
-            "expected": "200"
-          }
-        ],
-        "requestHeaders": []
-      },
-      {
-        "identifier": 4,
+        "identifier": 2,
         "name": "Delete Test 2",
         "description": "",
         "httpMethod": "GET",
