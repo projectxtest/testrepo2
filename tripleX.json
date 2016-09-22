@@ -7,7 +7,7 @@
     "password": "",
     "useBasicAuthentication": false,
     "csrfTokenUrl": "",
-    "baseVersionSha": "",
+    "baseVersionSha": "7deb767616bfb37f13e1e470717fec26e6c19a5e",
     "useGithub": true,
     "githubUrl": "https://api.github.com",
     "githubRepository": "testrepo2",
@@ -15,7 +15,7 @@
     "githubUserRepository": "projectxtest",
     "requests": [
       {
-        "identifier": 1,
+        "identifier": 0,
         "name": "Abfrage 1",
         "description": "Das ist die erste Abfrage.",
         "httpMethod": "GET",
@@ -38,7 +38,7 @@
         "requestHeaders": []
       },
       {
-        "identifier": 2,
+        "identifier": 1,
         "name": "Abfrage 2",
         "description": "Das ist die zweite Abfrage.",
         "httpMethod": "GET",
@@ -58,6 +58,37 @@
         "revision": 0,
         "uuid": "1474551140946bec8ece5-454e-4535-b27c-0d67bf43288c",
         "assertions": [],
+        "requestHeaders": []
+      },
+      {
+        "identifier": 2,
+        "name": "Jens",
+        "description": "Ich hab Jens.",
+        "httpMethod": "GET",
+        "useProjectPrefixUrl": false,
+        "fetchCSRFToken": false,
+        "url": "http://jenshost:3000",
+        "tags": "",
+        "requestBody": "",
+        "scriptCode": "",
+        "testScriptCode": "",
+        "responseBodyFormat": "text",
+        "groupName": "",
+        "useBasicAuthentication": false,
+        "usernameBasicAuth": "",
+        "passwordBasicAuth": "",
+        "changed": false,
+        "revision": 0,
+        "uuid": "147455133893668a28d0c-fb47-4ac3-8ed4-6e862d461d13",
+        "assertions": [
+          {
+            "name": "",
+            "assertProperty": "STATUS",
+            "operation": "EQUALS",
+            "path": "",
+            "expected": "200"
+          }
+        ],
         "requestHeaders": []
       }
     ],
