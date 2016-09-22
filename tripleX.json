@@ -7,7 +7,7 @@
     "password": "",
     "useBasicAuthentication": false,
     "csrfTokenUrl": "",
-    "baseVersionSha": "1d98adc0095947bb87af9c15836bce61477f0959",
+    "baseVersionSha": "a475150952511c397d422797879c2a40a34c0008",
     "useGithub": true,
     "githubUrl": "https://api.github.com",
     "githubRepository": "testrepo2",
@@ -173,6 +173,37 @@
         "changed": false,
         "revision": 0,
         "uuid": "147455157298982524819-4dcc-4fb7-a687-21ede7425d9d",
+        "assertions": [
+          {
+            "name": "",
+            "assertProperty": "STATUS",
+            "operation": "EQUALS",
+            "path": "",
+            "expected": "200"
+          }
+        ],
+        "requestHeaders": []
+      },
+      {
+        "identifier": 7,
+        "name": "Jens 5",
+        "description": "ffff",
+        "httpMethod": "GET",
+        "useProjectPrefixUrl": false,
+        "fetchCSRFToken": false,
+        "url": "http://localhost:3000",
+        "tags": "",
+        "requestBody": "",
+        "scriptCode": "",
+        "testScriptCode": "",
+        "responseBodyFormat": "text",
+        "groupName": "",
+        "useBasicAuthentication": false,
+        "usernameBasicAuth": "",
+        "passwordBasicAuth": "",
+        "changed": false,
+        "revision": 0,
+        "uuid": "1474551646960df207191-63ed-4a82-a8be-6f97a6e08ec8",
         "assertions": [
           {
             "name": "",
