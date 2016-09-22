@@ -1,13 +1,13 @@
 [
   {
-    "identifier": 4,
+    "identifier": 1,
     "name": "TripleX",
     "prefixUrl": "",
     "username": "",
     "password": "",
     "useBasicAuthentication": false,
     "csrfTokenUrl": "",
-    "baseVersionSha": "eed64d2b008c44e9f61441e74c846509cebfb9de",
+    "baseVersionSha": "3ac2affb061db66531d2388f628935346d2925ae",
     "useGithub": true,
     "githubUrl": "https://api.github.com",
     "githubRepository": "testrepo2",
@@ -47,8 +47,8 @@
       },
       {
         "identifier": 2,
-        "name": "Jens 2",
-        "description": "Nochmal jens.",
+        "name": "Jens 3 (original)",
+        "description": "Nochmal Jens.",
         "httpMethod": "GET",
         "useProjectPrefixUrl": false,
         "fetchCSRFToken": false,
@@ -64,7 +64,7 @@
         "passwordBasicAuth": "",
         "changed": false,
         "revision": 0,
-        "uuid": "1474551409170c4fa0236-2b52-4bcb-813d-8bfc7dd4d5a3",
+        "uuid": "147455147597959f330ef-ac1a-4dd9-9f56-99301cd3aac2",
         "assertions": [
           {
             "name": "",
@@ -78,37 +78,6 @@
       },
       {
         "identifier": 3,
-        "name": "Jens 6",
-        "description": "Nochmal",
-        "httpMethod": "GET",
-        "useProjectPrefixUrl": false,
-        "fetchCSRFToken": false,
-        "url": "http://localhost:3000",
-        "tags": "",
-        "requestBody": "",
-        "scriptCode": "",
-        "testScriptCode": "",
-        "responseBodyFormat": "text",
-        "groupName": "",
-        "useBasicAuthentication": false,
-        "usernameBasicAuth": "",
-        "passwordBasicAuth": "",
-        "changed": false,
-        "revision": 0,
-        "uuid": "1474551697813fc4cbfe9-18b2-4728-838a-f7b79cd22c13",
-        "assertions": [
-          {
-            "name": "",
-            "assertProperty": "STATUS",
-            "operation": "EQUALS",
-            "path": "",
-            "expected": "200"
-          }
-        ],
-        "requestHeaders": []
-      },
-      {
-        "identifier": 4,
         "name": "Jens 4 - 4",
         "description": "Nochmal.",
         "httpMethod": "GET",
@@ -127,6 +96,37 @@
         "changed": false,
         "revision": 0,
         "uuid": "147455157298982524819-4dcc-4fb7-a687-21ede7425d9d",
+        "assertions": [
+          {
+            "name": "",
+            "assertProperty": "STATUS",
+            "operation": "EQUALS",
+            "path": "",
+            "expected": "200"
+          }
+        ],
+        "requestHeaders": []
+      },
+      {
+        "identifier": 4,
+        "name": "Jens 6",
+        "description": "Nochmal",
+        "httpMethod": "GET",
+        "useProjectPrefixUrl": false,
+        "fetchCSRFToken": false,
+        "url": "http://localhost:3000",
+        "tags": "",
+        "requestBody": "",
+        "scriptCode": "",
+        "testScriptCode": "",
+        "responseBodyFormat": "text",
+        "groupName": "",
+        "useBasicAuthentication": false,
+        "usernameBasicAuth": "",
+        "passwordBasicAuth": "",
+        "changed": false,
+        "revision": 0,
+        "uuid": "1474551697813fc4cbfe9-18b2-4728-838a-f7b79cd22c13",
         "assertions": [
           {
             "name": "",
@@ -264,8 +264,8 @@
       },
       {
         "identifier": 9,
-        "name": "Jens 3 (original)",
-        "description": "Nochmal Jens.",
+        "name": "Jens 22",
+        "description": "Nochmal jens.",
         "httpMethod": "GET",
         "useProjectPrefixUrl": false,
         "fetchCSRFToken": false,
@@ -281,7 +281,7 @@
         "passwordBasicAuth": "",
         "changed": false,
         "revision": 0,
-        "uuid": "147455147597959f330ef-ac1a-4dd9-9f56-99301cd3aac2",
+        "uuid": "1474551409170c4fa0236-2b52-4bcb-813d-8bfc7dd4d5a3",
         "assertions": [
           {
             "name": "",
