@@ -7,7 +7,7 @@
     "password": "",
     "useBasicAuthentication": false,
     "csrfTokenUrl": "",
-    "baseVersionSha": "6db9e61a500ac283691b5068ffa68c08099209a8",
+    "baseVersionSha": "45c7f62f6de0b9362ca610ec8b495750638ab22c",
     "useGithub": true,
     "githubUrl": "https://api.github.com",
     "githubRepository": "testrepo2",
@@ -16,29 +16,6 @@
     "requests": [
       {
         "identifier": 1,
-        "name": "Abfrage 1",
-        "description": "Das ist die erste Abfrage.",
-        "httpMethod": "GET",
-        "useProjectPrefixUrl": false,
-        "fetchCSRFToken": false,
-        "url": "http://horst:3000",
-        "tags": "",
-        "requestBody": "",
-        "scriptCode": "",
-        "testScriptCode": "",
-        "responseBodyFormat": "text",
-        "groupName": "",
-        "useBasicAuthentication": false,
-        "usernameBasicAuth": "",
-        "passwordBasicAuth": "",
-        "changed": false,
-        "revision": 0,
-        "uuid": "1474551140945ba759896-744b-4a61-b737-406e9210cfa7",
-        "assertions": [],
-        "requestHeaders": []
-      },
-      {
-        "identifier": 2,
         "name": "Abfrage 2",
         "description": "Das ist die zweite Abfrage.",
         "httpMethod": "GET",
@@ -61,7 +38,7 @@
         "requestHeaders": []
       },
       {
-        "identifier": 3,
+        "identifier": 2,
         "name": "Jens",
         "description": "Ich hab Jens.",
         "httpMethod": "GET",
@@ -92,7 +69,7 @@
         "requestHeaders": []
       },
       {
-        "identifier": 4,
+        "identifier": 3,
         "name": "Jens 2",
         "description": "Nochmal jens.",
         "httpMethod": "GET",
@@ -123,7 +100,7 @@
         "requestHeaders": []
       },
       {
-        "identifier": 5,
+        "identifier": 4,
         "name": "Jens 3",
         "description": "Nochmal Jens.",
         "httpMethod": "GET",
@@ -154,7 +131,7 @@
         "requestHeaders": []
       },
       {
-        "identifier": 6,
+        "identifier": 5,
         "name": "Jens 4 - 4",
         "description": "Nochmal.",
         "httpMethod": "GET",
@@ -185,7 +162,7 @@
         "requestHeaders": []
       },
       {
-        "identifier": 7,
+        "identifier": 6,
         "name": "Jens 6",
         "description": "Nochmal",
         "httpMethod": "GET",
@@ -216,7 +193,7 @@
         "requestHeaders": []
       },
       {
-        "identifier": 8,
+        "identifier": 7,
         "name": "Jens 5 - 5",
         "description": "ffff",
         "httpMethod": "GET",
@@ -247,7 +224,7 @@
         "requestHeaders": []
       },
       {
-        "identifier": 9,
+        "identifier": 8,
         "name": "Jens 5 changed not really new",
         "description": "ffff",
         "httpMethod": "GET",
