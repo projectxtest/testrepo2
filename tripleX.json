@@ -7,7 +7,7 @@
     "password": "",
     "useBasicAuthentication": false,
     "csrfTokenUrl": "",
-    "baseVersionSha": "a475150952511c397d422797879c2a40a34c0008",
+    "baseVersionSha": "89588f306cd6bd674494454ef33580701ef1b001",
     "useGithub": true,
     "githubUrl": "https://api.github.com",
     "githubRepository": "testrepo2",
@@ -204,6 +204,37 @@
         "changed": false,
         "revision": 0,
         "uuid": "1474551646960df207191-63ed-4a82-a8be-6f97a6e08ec8",
+        "assertions": [
+          {
+            "name": "",
+            "assertProperty": "STATUS",
+            "operation": "EQUALS",
+            "path": "",
+            "expected": "200"
+          }
+        ],
+        "requestHeaders": []
+      },
+      {
+        "identifier": 8,
+        "name": "Jens 6",
+        "description": "Nochmal",
+        "httpMethod": "GET",
+        "useProjectPrefixUrl": false,
+        "fetchCSRFToken": false,
+        "url": "http://localhost:3000",
+        "tags": "",
+        "requestBody": "",
+        "scriptCode": "",
+        "testScriptCode": "",
+        "responseBodyFormat": "text",
+        "groupName": "",
+        "useBasicAuthentication": false,
+        "usernameBasicAuth": "",
+        "passwordBasicAuth": "",
+        "changed": false,
+        "revision": 0,
+        "uuid": "1474551697813fc4cbfe9-18b2-4728-838a-f7b79cd22c13",
         "assertions": [
           {
             "name": "",
