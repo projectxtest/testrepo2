@@ -1,13 +1,13 @@
 [
   {
-    "identifier": 1,
+    "identifier": 4,
     "name": "TripleX",
     "prefixUrl": "",
     "username": "",
     "password": "",
     "useBasicAuthentication": false,
     "csrfTokenUrl": "",
-    "baseVersionSha": "776465648271857872f15e94a2cbafab24737dd3",
+    "baseVersionSha": "f430439ddb07e1513659a20dfe9af1f04b560b36",
     "useGithub": true,
     "githubUrl": "https://api.github.com",
     "githubRepository": "testrepo2",
@@ -109,37 +109,6 @@
       },
       {
         "identifier": 4,
-        "name": "Jens 4 - 4",
-        "description": "Nochmal.",
-        "httpMethod": "GET",
-        "useProjectPrefixUrl": false,
-        "fetchCSRFToken": false,
-        "url": "http://localhost:3000",
-        "tags": "",
-        "requestBody": "",
-        "scriptCode": "",
-        "testScriptCode": "",
-        "responseBodyFormat": "text",
-        "groupName": "",
-        "useBasicAuthentication": false,
-        "usernameBasicAuth": "",
-        "passwordBasicAuth": "",
-        "changed": false,
-        "revision": 0,
-        "uuid": "147455157298982524819-4dcc-4fb7-a687-21ede7425d9d",
-        "assertions": [
-          {
-            "name": "",
-            "assertProperty": "STATUS",
-            "operation": "EQUALS",
-            "path": "",
-            "expected": "200"
-          }
-        ],
-        "requestHeaders": []
-      },
-      {
-        "identifier": 5,
         "name": "Jens 6",
         "description": "Nochmal",
         "httpMethod": "GET",
@@ -158,6 +127,37 @@
         "changed": false,
         "revision": 0,
         "uuid": "1474551697813fc4cbfe9-18b2-4728-838a-f7b79cd22c13",
+        "assertions": [
+          {
+            "name": "",
+            "assertProperty": "STATUS",
+            "operation": "EQUALS",
+            "path": "",
+            "expected": "200"
+          }
+        ],
+        "requestHeaders": []
+      },
+      {
+        "identifier": 5,
+        "name": "Jens 4 - 4",
+        "description": "Nochmal.",
+        "httpMethod": "GET",
+        "useProjectPrefixUrl": false,
+        "fetchCSRFToken": false,
+        "url": "http://localhost:3000",
+        "tags": "",
+        "requestBody": "",
+        "scriptCode": "",
+        "testScriptCode": "",
+        "responseBodyFormat": "text",
+        "groupName": "",
+        "useBasicAuthentication": false,
+        "usernameBasicAuth": "",
+        "passwordBasicAuth": "",
+        "changed": false,
+        "revision": 0,
+        "uuid": "147455157298982524819-4dcc-4fb7-a687-21ede7425d9d",
         "assertions": [
           {
             "name": "",
@@ -264,7 +264,7 @@
       },
       {
         "identifier": 9,
-        "name": "Jens 3 (copy)",
+        "name": "Jens 3 (copy copy)",
         "description": "Nochmal Jens.",
         "httpMethod": "GET",
         "useProjectPrefixUrl": false,
