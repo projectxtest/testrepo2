@@ -7,7 +7,7 @@
     "password": "",
     "useBasicAuthentication": false,
     "csrfTokenUrl": "",
-    "baseVersionSha": "f5d3fbe28f7785dffd2ae1b8640897b6cb49b130",
+    "baseVersionSha": "6db9e61a500ac283691b5068ffa68c08099209a8",
     "useGithub": true,
     "githubUrl": "https://api.github.com",
     "githubRepository": "testrepo2",
@@ -248,7 +248,7 @@
       },
       {
         "identifier": 9,
-        "name": "Jens 5 changed (NEW)",
+        "name": "Jens 5 changed not really new",
         "description": "ffff",
         "httpMethod": "GET",
         "useProjectPrefixUrl": false,
