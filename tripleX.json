@@ -1,13 +1,13 @@
 [
   {
-    "identifier": 1,
+    "identifier": 4,
     "name": "TripleX",
     "prefixUrl": "",
     "username": "",
     "password": "",
     "useBasicAuthentication": false,
     "csrfTokenUrl": "",
-    "baseVersionSha": "209988fd7f91b01bd36217842881ea80e772e05b",
+    "baseVersionSha": "207ef64d7cb98208dccb25a013cb094fc62bec4e",
     "useGithub": true,
     "githubUrl": "https://api.github.com",
     "githubRepository": "testrepo2",
@@ -263,26 +263,7 @@
         "requestHeaders": []
       }
     ],
-    "sequences": [
-      {
-        "identifier": 1,
-        "name": "New Sequence",
-        "description": "",
-        "preSequenceScript": "",
-        "abortOnFailedAssertion": false,
-        "sequenceItems": [
-          {
-            "identifier": 8
-          },
-          {
-            "identifier": 1
-          },
-          {
-            "identifier": 2
-          }
-        ]
-      }
-    ],
+    "sequences": [],
     "prefixUrls": []
   }
 ]
