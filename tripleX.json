@@ -7,7 +7,7 @@
     "password": "",
     "useBasicAuthentication": false,
     "csrfTokenUrl": "",
-    "baseVersionSha": "a7ef376ef8a32631cfd0e50d4e4cbd3bae500f37",
+    "baseVersionSha": "209988fd7f91b01bd36217842881ea80e772e05b",
     "useGithub": true,
     "githubUrl": "https://api.github.com",
     "githubRepository": "testrepo2",
@@ -262,8 +262,27 @@
         ],
         "requestHeaders": []
       }
-      ],
-    "sequences": [],
+    ],
+    "sequences": [
+      {
+        "identifier": 1,
+        "name": "New Sequence",
+        "description": "",
+        "preSequenceScript": "",
+        "abortOnFailedAssertion": false,
+        "sequenceItems": [
+          {
+            "identifier": 8
+          },
+          {
+            "identifier": 1
+          },
+          {
+            "identifier": 2
+          }
+        ]
+      }
+    ],
     "prefixUrls": []
   }
 ]
